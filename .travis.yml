@@ -18,5 +18,7 @@ cache:
 
 # Command to run tests, e.g. python setup.py test
 script:
-  -  cd Tests/
+  - python -m unittest Tests.test_classic_testing
+  - python -m unittest Tests.test_sequential_testing
+  
   
